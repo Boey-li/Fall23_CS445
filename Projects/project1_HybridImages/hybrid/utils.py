@@ -239,7 +239,6 @@ def gaussian_kernel(sigma, kernel_half_size):
 
     return gaussian_kernel_2d
 
-
 def plot(array, filename=None):
     # plots gray images
     plt.imshow(array, cmap='gray') 
