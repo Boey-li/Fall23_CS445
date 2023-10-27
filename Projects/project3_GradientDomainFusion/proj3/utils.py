@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 def poly2mask(vertex_row_coords, vertex_col_coords, shape):
     fill_row_coords, fill_col_coords = draw.polygon(vertex_row_coords, vertex_col_coords, shape)
-    mask = np.zeros(shape, dtype=np.bool)
+    mask = np.zeros(shape, dtype=bool)
     mask[fill_row_coords, fill_col_coords] = True
     return mask
 
