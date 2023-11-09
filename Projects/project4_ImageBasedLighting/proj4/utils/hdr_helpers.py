@@ -37,7 +37,7 @@ def gsolve(Z: np.ndarray, B: np.ndarray, l: int, w) -> (np.ndarray, np.ndarray):
     for i in range(N):
         # for each image
         for j in range(P):
-            wij = w[Z[i, j]]
+            wij = w(Z[i, j])
             A[k, Z[i, j]] = wij
             A[k, n + j] = -wij
             b[k, 0] = wij * B[i]
