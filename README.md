@@ -2,15 +2,10 @@
 
 This repo is for notes and projects of [CS 445 - Computational Photography](https://courses.engr.illinois.edu/cs445/fa2023/) by Prof. Derek Hoiem in Fall 2023, UIUC. 
 
-## Course Notes
-
-### Basics of Working with Images
-1. Pixels and Image Filtering.
-2. Thinking in Frequency 
-3. Templates and image pyramids 
-4. Light and color
-5. Histograms and color adjustments
-
 ## Course Projects
 
-## Final Project
+- MP1: [Hybrid Images](https://courses.engr.illinois.edu/cs445/fa2023/projects/hybrid/ComputationalPhotography_ProjectHybrid.html)
+- MP2: [Image Quilting](https://courses.engr.illinois.edu/cs445/fa2023/projects/quilting/ComputationalPhotography_ProjectQuilting.html)
+- MP3: [Gradient-Domain Fusion](https://courses.engr.illinois.edu/cs445/fa2023/projects/gradient/ComputationalPhotography_ProjectGradient.html)
+- MP4: [Image-Based Lighting](https://courses.engr.illinois.edu/cs445/fa2023/projects/ibl/ComputationalPhotography_ProjectIBL.html)
+- MP5: [Video Stitching and Processing](https://courses.engr.illinois.edu/cs445/fa2023/projects/video/ComputationalPhotograph_ProjectVideo.html)
